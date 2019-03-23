@@ -79,6 +79,8 @@ header nav {
 header nav ul {
 	margin: 0;
 	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
 }
 header nav ul li {
 	text-transform: uppercase;
@@ -92,6 +94,10 @@ header nav ul li a{
 	color:#77a466;
 }
 
+li {
+	width: 100%;
+}
+
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
@@ -100,6 +106,8 @@ header nav ul li a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
 }
 
 .main-image {
