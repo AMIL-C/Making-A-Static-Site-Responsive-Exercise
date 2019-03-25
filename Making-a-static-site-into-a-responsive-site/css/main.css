@@ -108,6 +108,7 @@ li {
 	align-items: center;
 	width: 100%;
 	flex-flow: row wrap;
+	border: none;
 }
 
 .main-image {
