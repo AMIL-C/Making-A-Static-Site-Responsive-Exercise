@@ -19,10 +19,11 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
 	display: flex;
-	width: 90%;
+	width: 100%;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	text-align: center;
 }
 
 h1,
@@ -86,7 +87,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
-	padding: 0 10px;
+	padding: 10px 0;
 	display: inline;
 }
 header nav ul li a{
@@ -138,8 +139,7 @@ li {
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	border: none;
 }
 
 .section-two h4,
@@ -200,7 +200,7 @@ footer span {
 	.section-one,
 	.section-two,
 	.section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
 }
