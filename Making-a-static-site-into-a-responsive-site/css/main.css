@@ -147,6 +147,14 @@ li {
 	padding: 10px 30px;
 }
 
+.section-one,
+.section-two,
+.section-three {
+width: 100%;
+height: auto;
+border-top: 1px solid #eee;
+}
+
 .menu {
 	list-style: none;
 	padding: 0;
