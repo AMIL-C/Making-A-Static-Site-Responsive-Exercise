@@ -68,6 +68,7 @@ header h1 {
 	margin: 0;
 	padding: 38px 0;
 	width: 100%;
+	border-bottom: 5px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
@@ -144,8 +145,8 @@ li {
 }
 
 .section-two h4,
-.section-three h4 {
-	padding: 10px 30px;
+.section-three h4, p {
+	padding: 10px 0px;
 }
 
 .section-one,
