@@ -111,7 +111,7 @@ li {
 	width: 100%;
 	flex-flow: row wrap;
 	border: none;
-	padding: 0 0 10px 0;
+	/** padding: 0 0 10px 0; **/
 }
 
 .main-image {
@@ -136,12 +136,9 @@ li {
 	line-height: 25px;
 }
 
-.section-one h4 {
-	padding: 10px 0;
-}
-
-.section, .section-two {
-	border: 1px solid #EEE;
+.section-one, .section-two {
+	border-right: 1px solid #EEE;
+	padding: 0 4px;
 }
 
 .section-two h4,
@@ -185,7 +182,7 @@ border-top: 1px solid #eee;
 /*The widths are in a percentage!*/
 footer {
 	height: 50px;
-	border-top: 3px solid #eee;
+	border: none;
 	margin: 0 auto;
 	clear: both;
 	text-align: center;
@@ -213,6 +210,8 @@ footer span {
 	width: 100%;
 	height: auto;
 	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	padding: 0;
 	text-align: justify;
 	}
 }
@@ -221,7 +220,7 @@ footer span {
 	.section-one,
 	.section-two,
 	.section-three {
-	width: 33%;
+	width: 30%;
 	height: auto;
 	border-top: 1px solid #eee;
 }
