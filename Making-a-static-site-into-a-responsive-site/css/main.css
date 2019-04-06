@@ -66,7 +66,7 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 20px 20px 20px;
 	width: 100%;
 	border-bottom: 5px solid #77a466;
 }
@@ -75,7 +75,7 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 20px 0;
 	width: 100%;
 }
 header nav ul {
@@ -87,17 +87,21 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: .875em;
 	padding: 10px 0;
-	display: inline;
+	list-style: none;
 }
-header nav ul li a{
+header nav ul li a {
 	text-decoration: none;
 	color:#77a466;
 }
 
 li {
 	width: 100%;
+}
+
+ul {
+	margin: 0;
 }
 
 /*The widths are in a percentage!*/
@@ -165,16 +169,16 @@ border-top: 1px solid #eee;
 
 .reviews {
 	color: #333;
-	font-size: 16px;
-	line-height: 21px;
+	font-size: 1em;
+	line-height: 1.3125;
 }
 
 .address {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 1em;
+	line-height: 1.5;
 }
 
-.wrapper span {
+span {
   font-family: 'Lora', sans-serif;
   font-size: 1.3em;
 }
