@@ -71,7 +71,7 @@ header h1 {
 	border-bottom: 5px solid #77a466;
 }
 header h1 span {
-	color: #77a466;
+  color: #77A466;
 }
 
 header nav {
@@ -178,11 +178,6 @@ border-top: 1px solid #eee;
 	line-height: 1.5;
 }
 
-span {
-  font-family: 'Lora', sans-serif;
-  font-size: 1.3em;
-}
-
 /*The widths are in a percentage!*/
 footer {
 	height: 50px;
@@ -211,17 +206,26 @@ footer span {
     }
 
     .bottom-section {
-	width: 100%;
-	height: auto;
-	border-top: 1px solid #EEE;
-	border-bottom: 1px solid #EEE;
-	padding: 0;
-	justify-content: space-between;
-	text-align: justify;
+		border-top: 1px solid #EEE;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		border-top: none;
+		flex-basis: 30%;
+	}
+
+	.section-two {
+		border-left: 1px solid #EEE;
+		border-right: 1px solid #EEE;
+		padding: 0 20px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 	.section-one,
 	.section-two,
 	.section-three {
@@ -231,6 +235,22 @@ footer span {
 }
 
 	header {
+		justify-content: space-between;
+	}
+
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav {
+		width: 40%;
+	}
+
+	header nav ul {
+		display: flex;
 		justify-content: space-between;
 	}
   }
