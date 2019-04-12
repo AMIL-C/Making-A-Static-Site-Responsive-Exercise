@@ -65,6 +65,7 @@ header {
 }
 
 header h1 {
+	font-size: 1.875em;
 	margin: 0;
 	padding: 38px 20px 20px 20px;
 	width: 100%;
