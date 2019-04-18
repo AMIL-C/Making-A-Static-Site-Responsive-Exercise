@@ -197,7 +197,7 @@ footer span {
 	font-size: 14px;
 }
 
-@media only screen and (min-width: 768px) {
+/** @media only screen and (min-width: 768px) {
     body {
       padding: 1em;
     }
@@ -254,7 +254,7 @@ footer span {
 		display: flex;
 		justify-content: space-between;
 	}
-  }
+  } **/
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
